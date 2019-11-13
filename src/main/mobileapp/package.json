@@ -1,0 +1,12 @@
+{
+  "name": "io.cronapp.apps.pandorasoteropolitana",
+  "displayName": "pandoraSoteropolitana",
+  "version": "1.0.0",
+  "description": "pandoraSoteropolitana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CronApp IDE",
+  "license": "Apache-2.0"
+}
