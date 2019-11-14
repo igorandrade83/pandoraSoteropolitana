@@ -6,23 +6,20 @@ window.blockly.js.blockly.Restaurantes = window.blockly.js.blockly.Restaurantes 
 /**
  * localizacao
  */
-window.blockly.js.blockly.Restaurantes.linkRestaurantes = function() {
+window.blockly.js.blockly.Restaurantes.linkRestaurantes2 = function() {
  var qs;
   qs = this.cronapi.screen.getParam('qs');
   if (qs == '2') {
     this.cronapi.screen.changeContent("titleLocal", 'Pelourinho', 'false');
-    this.cronapi.screen.changeAttrValue("iframemap", 'src', 'https://www.google.com/search?sxsrf=ACYBGNREVsBAcpVNG4KtUKcFcPpTsFPdiw:1572621114983&q=restaurantes+no+pelourinho&npsic=0&rflfq=1&rlha=0&rllag=-12972738,-38508444,154&tbm=lcl&ved=2ahUKEwi157KXpsnlAhUb' +
-     'GLkGHXV9ApwQtgN6BAgKEAQ&tbs=lrf:!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkJS,lf:1,lf_ui:9&rldoc=1');
+    this.cronapi.screen.changeAttrValue("img_restaurante", 'src', 'img/restaurantes_pelourinho.JPG');
     this.cronapi.screen.changeContent("resumoLocalizacao", 'Restaurantes do Pelourinho.', 'false');
   } else if (qs == '1') {
     this.cronapi.screen.changeContent("titleLocal", 'Elevador', 'false');
-    this.cronapi.screen.changeAttrValue("iframemap", 'src', 'https://www.google.com/search?sxsrf=ACYBGNSXpNmI8bbfYWHbYXGCbmgQBdIpzQ:1573719517216&q=restaurantes+elevador+lacerda&npsic=0&rflfq=1&rlha=0&rllag=-12973638,-38513598,114&tbm=lcl&ved=2ahUKEwiozrKGounlA' +
-     'hWlILkGHYohAi8QtgN6BAgLEAQ&tbs=lrf:!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkJS,lf:1,lf_ui:9&rldoc=1');
+    this.cronapi.screen.changeAttrValue("img_restaurante", 'src', 'img/restaurantes_elevador.JPG');
     this.cronapi.screen.changeContent("resumoLocalizacao", 'Restaurantes próximos do Elevador Lacerda.\n', 'false');
   } else if (qs == '3') {
     this.cronapi.screen.changeContent("titleLocal", 'Farol da Barra', 'false');
-    this.cronapi.screen.changeAttrValue("iframemap", 'src', 'https://www.google.com/search?sxsrf=ACYBGNRcn69ewFKiVdzkdmWykP_mStchPA:1572621641706&q=restaurantes+no+farol+da+barra&npsic=0&rflfq=1&rlha=0&rllag=-13009929,-38529177,410&tbm=lcl&ved=2ahUKEwjyoseSqMnl' +
-     'AhXtIbkGHaZYDsMQtgN6BAgKEAQ&tbs=lrf:!3sIAEqAkJS,lf:1,lf_ui:9&rldoc=1');
+    this.cronapi.screen.changeAttrValue("img_restaurante", 'src', 'img/restaurantes_farol.JPG');
     this.cronapi.screen.changeContent("resumoLocalizacao", 'Restaurantes próximos ao Farol da Barra', 'false');
   }
 }
