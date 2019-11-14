@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="src/main/mobileapp/www/views/public/tela2.view.html" resourceType="JS" ruleDescription="local" ruleName="local" ruleSecurity="{&quot;filter&quot;:&quot;Public&quot;,&quot;post&quot;:&quot;Public&quot;,&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;,&quot;delete&quot;:&quot;Public&quot;,&quot;put&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
-  <metadata scale="1" scrollx="572.3920086393088" scrolly="34.49999999999997" target="[Fok1]d%NKf]cPf(f5^j"/>
+  <metadata scale="1" scrollx="489.99999999999966" scrolly="-2819.999999999998" target="Anb:u5+^,0vLkL9QIqn5"/>
   <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-396" y="-38">
     <field name="NAME">locais</field>
     <comment h="80" pinned="false" w="160">local</comment>
@@ -208,7 +208,7 @@
                                             </value>
                                             <value name="ARG2">
                                               <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="sIevMFuw~o(b}e::`tdk" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                                                <field name="TEXT">#/app/public/lazer?qs=2</field>
+                                                <field name="TEXT">#/app/public/lazer_2?qs=2</field>
                                               </shadow>
                                             </value>
                                             <next>
@@ -471,7 +471,7 @@
                                             </value>
                                             <value name="ARG2">
                                               <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="fEDBC2|lYak?~IO|6;}o" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                                                <field name="TEXT">#/app/public/lazer?qs=1</field>
+                                                <field name="TEXT">#/app/public/lazer_2?qs=1</field>
                                               </shadow>
                                             </value>
                                             <next>
@@ -734,7 +734,7 @@
                                             </value>
                                             <value name="ARG2">
                                               <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="p1D@o5$4[:-Hoyae}.]W" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                                                <field name="TEXT">#/app/public/lazer?qs=3</field>
+                                                <field name="TEXT">#/app/public/lazer_2?qs=3</field>
                                               </shadow>
                                             </value>
                                             <next>

@@ -17,7 +17,7 @@ window.blockly.js.blockly.Local.locais = function() {
     this.cronapi.screen.changeAttrValue("a_fav", 'href', '#/app/public/favoritar?qs=2');
     this.cronapi.screen.changeAttrValue("a_res", 'href', '#/app/public/restaurantes_2?qs=2');
     this.cronapi.screen.changeAttrValue("a_acess", 'href', '#/app/public/acessibilidade?qs=2');
-    this.cronapi.screen.changeAttrValue("a_lazer", 'href', '#/app/public/lazer?qs=2');
+    this.cronapi.screen.changeAttrValue("a_lazer", 'href', '#/app/public/lazer_2?qs=2');
     this.cronapi.screen.changeAttrValue("a_cash", 'href', '#/app/public/bancos?qs=2');
     this.cronapi.screen.changeContent("resumo", 'O Pelourinho, popularmente chamado de Pelô, é o nome de um bairro da cidade de Salvador, no Brasil. Localiza-se no Centro Histórico da cidade, na área que abrange apenas as ruas que vão do Terreiro de' +
      ' Jesus até o Largo do Pelourinho,[1] o qual possui um conjunto arquitetônico colonial barroco brasileiro preservado e integrante do Patrimônio Histórico da Organização das Nações Unidas para a Educaçã' +
@@ -30,7 +30,7 @@ window.blockly.js.blockly.Local.locais = function() {
     this.cronapi.screen.changeAttrValue("a_fav", 'href', '#/app/public/favoritar?qs=1');
     this.cronapi.screen.changeAttrValue("a_res", 'href', '#/app/public/restaurantes_2?qs=1');
     this.cronapi.screen.changeAttrValue("a_acess", 'href', '#/app/public/acessibilidade?qs=1');
-    this.cronapi.screen.changeAttrValue("a_lazer", 'href', '#/app/public/lazer?qs=1');
+    this.cronapi.screen.changeAttrValue("a_lazer", 'href', '#/app/public/lazer_2?qs=1');
     this.cronapi.screen.changeAttrValue("a_cash", 'href', '#/app/public/bancos?qs=1');
     this.cronapi.screen.changeContent("resumo", 'O Elevador Lacerda é o primeiro elevador urbano do mundo. Em 8 de dezembro de 1873, quando foi inaugurado, era o mais alto do mundo, com 63 metros.[1] Localizado na cidade de Salvador, Bahia, cumpre a' +
      ' função de transporte público entre a Praça Cairu, na Cidade Baixa, e a Praça Tomé de Sousa, na Cidade Alta. É um dos principais pontos turísticos e cartão postal da cidade. Do alto de suas torres, de' +
@@ -43,7 +43,7 @@ window.blockly.js.blockly.Local.locais = function() {
     this.cronapi.screen.changeAttrValue("a_fav", 'href', '#/app/public/favoritar?qs=3');
     this.cronapi.screen.changeAttrValue("a_res", 'href', '#/app/public/restaurantes_2?qs=3');
     this.cronapi.screen.changeAttrValue("a_acess", 'href', '#/app/public/acessibilidade?qs=3');
-    this.cronapi.screen.changeAttrValue("a_lazer", 'href', '#/app/public/lazer?qs=3');
+    this.cronapi.screen.changeAttrValue("a_lazer", 'href', '#/app/public/lazer_2?qs=3');
     this.cronapi.screen.changeAttrValue("a_cash", 'href', '#/app/public/bancos?qs=3');
     this.cronapi.screen.changeContent("resumo", 'O Farol da Barra, ou Farol de Santo Antônio, localiza-se na antiga ponta do Padrão, atual Ponta de Santo Antônio, em Salvador, no litoral do estado da Bahia, no Brasil. O farol primitivo foi o segundo' +
      ' existente em todo o continente americano, antecedido somente pelo farol do antigo Palácio de Friburgo no Recife.[3]\n\nA torre atual, de 1839, é troncônica em alvenaria com lanterna e galeria, tem 22' +
