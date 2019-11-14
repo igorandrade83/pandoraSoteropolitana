@@ -16,8 +16,8 @@ window.blockly.js.blockly.Restaurantes.linkRestaurantes = function() {
     this.cronapi.screen.changeContent("resumoLocalizacao", 'Restaurantes do Pelourinho.', 'false');
   } else if (qs == '1') {
     this.cronapi.screen.changeContent("titleLocal", 'Elevador', 'false');
-    this.cronapi.screen.changeAttrValue("iframemap", 'src', 'https://www.google.com/search?sxsrf=ACYBGNTTcApG7lesb5OSS13BXQ9THTZX2A:1572621688235&q=restaurantes+no+elevador+lacerda&npsic=0&rflfq=1&rldoc=1&rlha=0&rllag=-12975012,-38514044,245&tbm=lcl&sxsrf=ACYBG' +
-     'NTTcApG7lesb5OSS13BXQ9THTZX2A:1572621688235&sa=X&ved=2ahUKEwjemd-oqMnlAhUKHLkGHeN2DKkQtgN6BAgLEAQ');
+    this.cronapi.screen.changeAttrValue("iframemap", 'src', 'https://www.google.com/search?sxsrf=ACYBGNSXpNmI8bbfYWHbYXGCbmgQBdIpzQ:1573719517216&q=restaurantes+elevador+lacerda&npsic=0&rflfq=1&rlha=0&rllag=-12973638,-38513598,114&tbm=lcl&ved=2ahUKEwiozrKGounlA' +
+     'hWlILkGHYohAi8QtgN6BAgLEAQ&tbs=lrf:!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkJS,lf:1,lf_ui:9&rldoc=1');
     this.cronapi.screen.changeContent("resumoLocalizacao", 'Restaurantes próximos do Elevador Lacerda.\n', 'false');
   } else if (qs == '3') {
     this.cronapi.screen.changeContent("titleLocal", 'Farol da Barra', 'false');
