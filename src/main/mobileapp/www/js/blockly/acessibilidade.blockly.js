@@ -1,12 +1,12 @@
 window.blockly = window.blockly || {};
 window.blockly.js = window.blockly.js || {};
 window.blockly.js.blockly = window.blockly.js.blockly || {};
-window.blockly.js.blockly.Transporte = window.blockly.js.blockly.Transporte || {};
+window.blockly.js.blockly.Acessibilidade = window.blockly.js.blockly.Acessibilidade || {};
 
 /**
  * localizacao
  */
-window.blockly.js.blockly.Transporte.linkTransporte = function() {
+window.blockly.js.blockly.Acessibilidade.linkAcessibilidade = function() {
  var qs;
   qs = this.cronapi.screen.getParam('qs');
   if (qs == '2') {
