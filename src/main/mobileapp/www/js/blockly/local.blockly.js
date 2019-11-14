@@ -13,7 +13,7 @@ window.blockly.js.blockly.Local.locais = function() {
   if (qs == '2') {
     this.cronapi.screen.changeContent("titulo", 'Pelourinho', 'false');
     this.cronapi.screen.changeAttrValue("a_loc", 'href', '#/app/public/localizacao?qs=2');
-    this.cronapi.screen.changeAttrValue("a_trans", 'href', '#/app/public/localizacao?qs=2');
+    this.cronapi.screen.changeAttrValue("a_trans", 'href', '#/app/public/ltransporte?qs=2');
     this.cronapi.screen.changeAttrValue("a_fav", 'href', '#/app/public/favoritar?qs=2');
     this.cronapi.screen.changeAttrValue("a_res", 'href', '#/app/public/restaurantes?qs=2');
     this.cronapi.screen.changeContent("resumo", 'O Pelourinho, popularmente chamado de Pelô, é o nome de um bairro da cidade de Salvador, no Brasil. Localiza-se no Centro Histórico da cidade, na área que abrange apenas as ruas que vão do Terreiro de' +
@@ -23,7 +23,7 @@ window.blockly.js.blockly.Local.locais = function() {
   } else if (qs == '1') {
     this.cronapi.screen.changeContent("titulo", 'Elevador Lacerda', 'false');
     this.cronapi.screen.changeAttrValue("a_loc", 'href', '#/app/public/localizacao?qs=1');
-    this.cronapi.screen.changeAttrValue("a_trans", 'href', '#/app/public/localizacao?qs=1');
+    this.cronapi.screen.changeAttrValue("a_trans", 'href', '#/app/public/transporte?qs=1');
     this.cronapi.screen.changeAttrValue("a_fav", 'href', '#/app/public/favoritar?qs=1');
     this.cronapi.screen.changeAttrValue("a_res", 'href', '#/app/public/restaurantes?qs=1');
     this.cronapi.screen.changeContent("resumo", 'O Elevador Lacerda é o primeiro elevador urbano do mundo. Em 8 de dezembro de 1873, quando foi inaugurado, era o mais alto do mundo, com 63 metros.[1] Localizado na cidade de Salvador, Bahia, cumpre a' +
@@ -33,7 +33,7 @@ window.blockly.js.blockly.Local.locais = function() {
   } else if (qs == '3') {
     this.cronapi.screen.changeContent("titulo", 'Farol da Barra', 'false');
     this.cronapi.screen.changeAttrValue("a_loc", 'href', '#/app/public/localizacao?qs=3');
-    this.cronapi.screen.changeAttrValue("a_trans", 'href', '#/app/public/localizacao?qs=3');
+    this.cronapi.screen.changeAttrValue("a_trans", 'href', '#/app/public/transporte?qs=3');
     this.cronapi.screen.changeAttrValue("a_fav", 'href', '#/app/public/favoritar?qs=3');
     this.cronapi.screen.changeAttrValue("a_res", 'href', '#/app/public/restaurantes?qs=3');
     this.cronapi.screen.changeContent("resumo", 'O Farol da Barra, ou Farol de Santo Antônio, localiza-se na antiga ponta do Padrão, atual Ponta de Santo Antônio, em Salvador, no litoral do estado da Bahia, no Brasil. O farol primitivo foi o segundo' +
