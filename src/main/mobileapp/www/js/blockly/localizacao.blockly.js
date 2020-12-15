@@ -4,10 +4,18 @@ window.blockly.js.blockly = window.blockly.js.blockly || {};
 window.blockly.js.blockly.Localizacao = window.blockly.js.blockly.Localizacao || {};
 
 /**
+ * Descreva esta função...
+ */
+window.blockly.js.blockly.Localizacao.voltar = async function() {
+ var item, coordenada, lat, long, qs;
+  this.cronapi.screen.changeView("#/app/public/tela2",[ { qs : this.cronapi.screen.getParam('qs') } ]);
+}
+
+/**
  * localizacao
  */
-window.blockly.js.blockly.Localizacao.linkLocalizacao = function() {
- var qs;
+window.blockly.js.blockly.Localizacao.linkLocalizacao = async function() {
+ var item, coordenada, lat, long, qs;
   qs = this.cronapi.screen.getParam('qs');
   if (qs == '2') {
     this.cronapi.screen.changeContent("titleLocal", 'Pelourinho', 'false');
@@ -25,12 +33,4 @@ window.blockly.js.blockly.Localizacao.linkLocalizacao = function() {
      '6778!2sElevador%20Lacerda!5e0!3m2!1spt-BR!2sbr!4v1571968312917!5m2!1spt-BR!2sbr');
     this.cronapi.screen.changeContent("resumoLocalizacao", 'Localização do Farol da Barra', 'false');
   }
-}
-
-/**
- * Descreva esta função...
- */
-window.blockly.js.blockly.Localizacao.voltar = function() {
- var qs;
-  this.cronapi.screen.changeView("#/app/public/tela2",[ { qs : this.cronapi.screen.getParam('qs') } ]);
 }
